@@ -1,0 +1,16 @@
+__filename	当前正在执行的脚本名	
+__dirname	当前执行脚本所在目录
+
+setTimeout(cb,ms)
+clearTimeout(t)
+
+setInterval(cb,ms)全局函数在指定的毫秒(ms)数后执行指定函数(cb)
+
+console
+	log,info,error,warn,dir,time,timeEnd,trace,assert
+
+process		描述当前nodejs进程状态的对象
+	exit		进程准备退出时触发
+	beforeExit	
+	uncaughtException
+	Signal		接收到信号时就触发
